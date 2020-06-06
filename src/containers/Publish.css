@@ -1,0 +1,78 @@
+.Publish > .container {
+  margin-top: 40px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #e7e7e7;
+}
+
+.publish-wrapper {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.publish-title {
+  text-align: center;
+  border-bottom: 3px solid #f56b2a;
+  padding: 10px;
+}
+
+.publish-title > span {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#publish-form {
+  margin: 30px 0;
+}
+
+#publish-title,
+#publish-desc,
+#publish-price {
+  border: 1px solid #d9e0eb;
+  border-radius: 5px;
+  margin: 18px 0;
+  padding: 0 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#publish-title,
+#publish-desc {
+  line-height: 40px;
+  font-size: 22px;
+}
+
+#publish-desc {
+  font-size: 16px;
+  width: 100%;
+}
+
+#publish-price {
+  width: 50%;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+#publish-picture {
+  margin: 18px 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#publish-form > button {
+  background-color: #4183d7;
+  width: 100%;
+  margin: 18px 0 40px 0;
+}
+
+.dragFile {
+  text-align: center;
+  color: #8893a4;
+  border: 1px solid #d9e0eb;
+  font-size: 18px;
+  line-height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}

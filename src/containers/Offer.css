@@ -1,0 +1,90 @@
+.display-product {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.product-illustration {
+  box-shadow: 5px 5px 10px #e7e7e7;
+}
+
+.product-img > img {
+  width: 700px;
+  object-position: center;
+  object-fit: cover;
+  display: block;
+}
+
+.product-sum {
+  width: 700px;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.product-sum > div:last-child {
+  margin-top: 40px;
+}
+
+h2 {
+  line-height: 30px;
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.product-desc {
+  width: 700px;
+  margin: 30px 0;
+}
+
+.product-desc > p {
+  font-size: 19px;
+}
+
+.basket {
+  /* height: 195px; */
+  width: 279px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #e7e7e7;
+}
+
+.owner-info {
+  padding: 19px 22px;
+  border-bottom: #e1e7ec solid 1px;
+}
+
+.owner {
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.owner-offers {
+  color: #4183d7;
+  font-weight: bold;
+}
+
+.get-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-product button {
+  font-weight: bold;
+  margin: 30px 0;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.get-product button > span {
+  margin-left: 5px;
+}

@@ -1,0 +1,82 @@
+.sign-up > .container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 30px 40px 40px 40px;
+}
+
+.sign-up-right {
+  flex: 4;
+}
+
+.sign-up-left {
+  flex: 5;
+}
+
+.sign-up-right h4 {
+  border-bottom: 3px solid #f56b2a;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+#sign-up-form {
+  margin-top: 30px;
+}
+
+#sign-up-form input:not(#accept-terms) {
+  width: 100%;
+  border: 1px solid #d9e0eb;
+  border-radius: 5px;
+  font-size: 22px;
+  line-height: 40px;
+  margin: 18px 0;
+  padding: 0 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#sign-up-form > button {
+  background-color: #4183d7;
+  width: 100%;
+  margin: 18px 0 40px 0;
+}
+
+.terms-link {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.terms-link a {
+  color: #4183d7;
+}
+
+.why-signup {
+  display: flex;
+  padding-right: 30px;
+  margin: 30px 0 50px;
+}
+
+.why-signup-title {
+  margin-bottom: 20px;
+}
+.why-signup > div:first-child {
+  flex: 1;
+}
+
+.why-signup > div:last-child {
+  flex: 9;
+}
+
+.pwd-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pwd-section > div:first-child {
+  padding-right: 10px;
+}
+
+.icon-signup {
+  color: #4183d7;
+}
